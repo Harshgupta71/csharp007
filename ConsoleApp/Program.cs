@@ -11,7 +11,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            var result = Country.GetCountriesByName("India").FirstOrDefault().Name;
+            var result = Country.GetCountryByValue(10).Name;
             Console.WriteLine(result);
 
             Console.ReadLine();
