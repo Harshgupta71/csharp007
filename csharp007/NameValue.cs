@@ -6,8 +6,14 @@ namespace csharp007
     /// It can be used to store key/value pairs in terms on Name/Value
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class NameValue<T>
+    public class NameValue<T> 
     {
+        public NameValue(string name, T value)
+        {
+            Name = name;
+            Value = value;
+        }
+
         /// <summary>
         /// Name
         /// </summary>
@@ -17,30 +23,19 @@ namespace csharp007
         /// Value
         /// </summary>
         public T Value { get; set; }
-
-        public NameValue()
-        {
-
-        }
-
-        public NameValue(string name, T value)
-        {
-            Name = name;
-            Value = value;
-        }
     }
 
-    public class NameValue : NameValue<string>
-    {
-        public NameValue()
-        {
+    //public class NameValue : NameValue<string>
+    //{
+    //    public NameValue()
+    //    {
 
-        }
+    //    }
 
-        public NameValue(string name, string value)
-        {
-            Name = name;
-            Value = value;
-        }
-    }
+    //    public NameValue(string name, string value)
+    //    {
+    //        Name = name;
+    //        Value = value;
+    //    }
+    //}
 }
