@@ -29,4 +29,18 @@ namespace csharp007
             Value = value;
         }
     }
+
+    public class NameValue : NameValue<string>
+    {
+        public NameValue()
+        {
+
+        }
+
+        public NameValue(string name, string value)
+        {
+            Name = name;
+            Value = value;
+        }
+    }
 }
