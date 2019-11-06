@@ -8,6 +8,12 @@ namespace csharp007
     /// <typeparam name="T"></typeparam>
     public class NameValue<T> 
     {
+
+        public NameValue()
+        {
+
+        }
+
         public NameValue(string name, T value)
         {
             Name = name;
@@ -23,19 +29,20 @@ namespace csharp007
         /// Value
         /// </summary>
         public T Value { get; set; }
+
     }
 
-    //public class NameValue : NameValue<string>
-    //{
-    //    public NameValue()
-    //    {
+    public class NameValue : NameValue<string>
+    {
+        public NameValue()
+        {
 
-    //    }
+        }
 
-    //    public NameValue(string name, string value)
-    //    {
-    //        Name = name;
-    //        Value = value;
-    //    }
-    //}
+        public NameValue(string name, string value)
+        {
+            Name = name;
+            Value = value;
+        }
+    }
 }

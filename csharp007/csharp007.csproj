@@ -4,7 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>csharp007</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
+    <Authors>csharp007</Authors>
+    <Description>https://csharp007.com</Description>
   </PropertyGroup>
 
 </Project>
