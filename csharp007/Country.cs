@@ -252,20 +252,29 @@ namespace csharp007
         /// <summary>
         /// Get countries based on the search result
         /// </summary>
-        /// <param name="input">fitler countires by name contaning values</param>
+        /// <param name="name">fitler countires by name contaning values</param>
         /// <returns>List of filtered countires</returns>
-        public static List<NameValue<string>> GetCountriesByName(string input)
+        public static List<NameValue<string>> GetCountriesByNameContaining(string name)
         {
-            return allCountries.Where(c => c.Name.ToLower().Contains(input.ToLower())).ToList();
+            return allCountries.Where(c => c.Name.ToLower().Contains(name.ToLower())).ToList();
 
         }
 
-        public static NameValue<string> GetCountryByValue(string input)
+        /// <summary>
+        /// Get country based on Id
+        /// </summary>
+        /// <param name="id">Id</param>
+        /// <returns>Get a country based on Id</returns>
+        public static NameValue<string> GetCountryByValue(string id)
         {
-            return allCountries.Where(c => c.Value == input).FirstOrDefault();
+            return allCountries.Where(c => c.Value == id).FirstOrDefault();
 
         }
 
+        public static List<NameValue<string>> GetCountriesByName(string name)
+        {
+            return allCountries.Where(c => c.Name.ToLower() == name.ToLower()).ToList();
+        }
         /// <summary>
         /// Country names
         /// </summary>

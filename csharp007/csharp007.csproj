@@ -2,11 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Company>csharp007</Company>
+    <Company>CSharp007</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
-    <Authors>csharp007</Authors>
-    <Description>https://csharp007.com</Description>
+    <Version>1.0.4</Version>
+    <Authors>CSharp007</Authors>
+    <Description>https://www.csharp007.com</Description>
+    <PackageId>CSharp007</PackageId>
+    <Product>CSharp007</Product>
   </PropertyGroup>
 
 </Project>
