@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace csharp007
+namespace CSharp007
 {
     public class Country
     {

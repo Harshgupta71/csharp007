@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp007
+namespace CSharp007
 {
     /// <summary>
     /// It can be used to store key/value pairs in terms on Name/Value

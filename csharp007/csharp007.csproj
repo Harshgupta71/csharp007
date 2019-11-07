@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>CSharp007</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <Authors>CSharp007</Authors>
-    <Description>https://www.csharp007.com</Description>
+    <Description>Name and value pair generic class. Get all countries and with different filters.</Description>
     <PackageId>CSharp007</PackageId>
     <Product>CSharp007</Product>
   </PropertyGroup>

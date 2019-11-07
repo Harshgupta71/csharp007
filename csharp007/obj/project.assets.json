@@ -183,10 +183,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "restore": {
       "projectUniqueName": "C:\\Users\\harsh\\source\\csharp007\\csharp007\\csharp007\\csharp007.csproj",
-      "projectName": "Csharp007",
+      "projectName": "CSharp007",
       "projectPath": "C:\\Users\\harsh\\source\\csharp007\\csharp007\\csharp007\\csharp007.csproj",
       "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\harsh\\source\\csharp007\\csharp007\\csharp007\\obj\\",
