@@ -8,7 +8,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Name and value pair generic class. Get all countries and with different filters.</description>
     <dependencies>
-      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
   <files>

@@ -105,3 +105,5 @@ C:\Users\harsh\source\csharp007\csharp007\ConsoleApp\obj\Debug\ConsoleApp.csproj
 C:\Users\harsh\source\csharp007\csharp007\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
 C:\Users\harsh\source\csharp007\csharp007\ConsoleApp\obj\Debug\ConsoleApp.exe
 C:\Users\harsh\source\csharp007\csharp007\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\Users\harsh\source\csharp007\csharp007\ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\harsh\source\csharp007\csharp007\ConsoleApp\bin\Debug\Newtonsoft.Json.xml

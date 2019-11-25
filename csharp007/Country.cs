@@ -5,8 +5,10 @@ namespace CSharp007
 {
     public class Country
     {
-        private static readonly List<NameValue<string>> allCountries = 
-            new List<NameValue<string>>
+        /// <summary>
+        /// Get a list of all counties.
+        /// </summary>
+        public static readonly List<NameValue<string>> getAllCountries = new List<NameValue<string>>
             {
                 new NameValue {Name = "Afghanistan", Value = "1"},
                 new NameValue {Name = "Albania", Value = "2"},
@@ -256,7 +258,7 @@ namespace CSharp007
         /// <returns>List of filtered countires</returns>
         public static List<NameValue<string>> GetCountriesByNameContaining(string name)
         {
-            return allCountries.Where(c => c.Name.ToLower().Contains(name.ToLower())).ToList();
+            return getAllCountries.Where(c => c.Name.ToLower().Contains(name.ToLower())).ToList();
 
         }
 
@@ -267,18 +269,18 @@ namespace CSharp007
         /// <returns>Get a country based on Id</returns>
         public static NameValue<string> GetCountryByValue(string id)
         {
-            return allCountries.Where(c => c.Value == id).FirstOrDefault();
+            return getAllCountries.Where(c => c.Value == id).FirstOrDefault();
 
         }
 
         public static List<NameValue<string>> GetCountriesByName(string name)
         {
-            return allCountries.Where(c => c.Name.ToLower() == name.ToLower()).ToList();
+            return getAllCountries.Where(c => c.Name.ToLower() == name.ToLower()).ToList();
         }
         /// <summary>
         /// Country names
         /// </summary>
-        public static string[] Names = new string[]
+        private static readonly string[] Names = new string[]
         {
             "Afghanistan",
             "Albania",
@@ -524,7 +526,7 @@ namespace CSharp007
         /// <summary>
         /// Country abbreviations
         /// </summary>
-        public static string[] Abbreviations = new string[]
+        private static readonly string[] Abbreviations = new string[]
         {
             "AF",
             "AL",

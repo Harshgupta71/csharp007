@@ -4,11 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>CSharp007</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <Authors>CSharp007</Authors>
     <Description>Name and value pair generic class. Get all countries and with different filters.</Description>
     <PackageId>CSharp007</PackageId>
     <Product>CSharp007</Product>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
 
 </Project>
