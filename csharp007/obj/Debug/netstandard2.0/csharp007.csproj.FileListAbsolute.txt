@@ -7,3 +7,12 @@ C:\Users\harsh\source\csharp007\csharp007\csharp007\obj\Debug\netstandard2.0\csh
 C:\Users\harsh\source\csharp007\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.dll
 C:\Users\harsh\source\csharp007\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.pdb
 C:\Users\harsh\source\csharp007\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.csprojAssemblyReference.cache
+C:\Bot App\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.csprojAssemblyReference.cache
+C:\Bot App\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.csproj.CoreCompileInputs.cache
+C:\Bot App\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.AssemblyInfoInputs.cache
+C:\Bot App\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.AssemblyInfo.cs
+C:\Bot App\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.dll
+C:\Bot App\csharp007\csharp007\obj\Debug\netstandard2.0\csharp007.pdb
+C:\Bot App\csharp007\csharp007\bin\Debug\netstandard2.0\csharp007.deps.json
+C:\Bot App\csharp007\csharp007\bin\Debug\netstandard2.0\csharp007.dll
+C:\Bot App\csharp007\csharp007\bin\Debug\netstandard2.0\csharp007.pdb

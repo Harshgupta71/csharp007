@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using csharp007.Http;
-using CSharp007;
+using CSharp007.CSC;
 using Newtonsoft.Json;
 
 namespace ConsoleApp
@@ -29,10 +29,10 @@ namespace ConsoleApp
             //dynamic mapdata = JsonConvert.DeserializeObject<dynamic>(getResult.Result);
 
             //var tenantId = ((Newtonsoft.Json.Linq.JValue)mapdata["result"]["tenantId"]).Value;
+            string path = Cities.GetPath();
 
-
-            var result = Country.GetCountryByValue("10").Name;
-            Console.WriteLine(result);
+            var result = States.GetStatesByCountryId("101").FirstOrDefault().Name;
+            Console.WriteLine(path);
 
             Console.ReadLine();
         }

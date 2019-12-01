@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace CSharp007
 {
     /// <summary>
